@@ -1,0 +1,25 @@
+.block_googlesearch .searchform {
+	text-align: center;
+}
+
+.block_googlesearch .searchform fieldset {
+	display: flex;
+}
+
+.block_googlesearch .searchform fieldset .form-control {
+	flex: 1 1 auto;
+	margin-right: 5px;
+}
+
+.block_googlesearch .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #61aef3;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(15 111 197 / 75%);
+    box-shadow: 0 0 0 0.2rem rgb(15 111 197 / 75%);
+}
+
+.block_googlesearch .footer {
+	text-align: center;
+}
